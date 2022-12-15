@@ -15,13 +15,17 @@
 
                 </div>
                 <div class="header-pers-info">
-
+                    <h1>Dasha Karpova</h1>
+                    <p title="In future :)">Pre-Junior Frontend Developer</p>
                 </div>
             </div>
             <nav class="nav-line">
                 <ul>
+                    <li>Contacts</li>
                     <li>About</li>
                     <li>Skills</li>
+                    <li>Education</li>        
+                    <li>Languages</li>
                     <li>Code</li>
                     <li>Projects</li>
                 </ul>
@@ -33,17 +37,83 @@
             <aside class="left-aside">
                 <section class="contacts">
                     <h2>Contacts</h2>
+                    <table>
+                        <tr>
+                            <td>Location</td>
+                            <td>Armenia, Yerevan, +4 GMT</td>
+                        </tr>
+                        <tr>
+                            <td>Phone</td>
+                            <td>+374 41 250 193</td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>i.am.not.pursell@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Telegram</td>
+                            <td><a href="https://t.me/gadopiatikna" target="_blank">@gadopiatikna</a></td>
+                        </tr>
+                        <tr>
+                            <td>GitHub</td>
+                            <td><a href="https://github.com/dashlot" target="_blank">@dashlot</a></td>
+                        </tr>
+                        <tr>
+                            <td>Discord</td>
+                            <td>Dasha Karpova (@dashlot)</td>
+                        </tr>
+                    </table>
                 </section>
                 <section class="skills">
                     <h2>Skills</h2>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>JavaScript (basics)</li>
+                        <li>Figma</li>
+                        <li>Git, GitHub (basics)</li>
+                        <li>VS Code</li>
+                    </ul>
+                </section>
+                <section class="lang">
+                    <h2>Languages</h2>
+                    <p>Russian — Native </p>
+                    <p>English — Intermediate. <span class="additional-lang">81%, according to Efset quick test.</span></p>
                 </section>
             </aside>
             <main class="main">
                 <section class="main-about">
                     <h2>About me</h2>
+                    <p>
+                        My professional field is copywriting. I worked as a technical writer (2017–2020) and as a commercial author in email marketing. Since 2022 I've been working as a remote technical writer in a foreign company. 
+                    </p>
+                    <p>
+                        First front-end tasks I faced long ago when applying some MD markup for article editing. Then I tried to study style and markup several times. But they won. In summer 22, I made the new attempt. Since that moment, I've been learning HTML5, CSS, and the basics of JS.
+                    </p>
+                    <p>
+                        I consider that regular studying and strong desire help me to reach the main goal - become a Junior Frontend Developer.</p>
+                </section>
+                <section class="main-education">
+                    <h2>Education</h2>
+                    <ul>
+                        <li>B.A. in Russian Philology (Samara State University)</li>
+                        <li><a href="https://www.udemy.com/course/frontend-html-css-javascript/">Frontend разработчик на HTML, CSS и JavaScript (Udemy)</a></li>
+                        <li><a href="https://learn.javascript.ru/">JavaScript online manual (in progress)</a></li>
+                        <li><a href="https://app.rs.school/">RS School. JS/FE Pre-School 2022Q4 (in progress)</a></li>
+                    </ul>
+
                 </section>
                 <section class="main-code">
                     <h2>Code example</h2>
+                    <pre>
+                        let getCity = $('.discount-text form button');
+                            getCity.on('click', function() {
+                                $.get( "http://ip-api.com/json", function( data ) {
+                                let divCity = $('#city-from-api');
+                                divCity.html = `&lt;p&gt; data.city &lt;/&gt;`
+                                }
+                            })
+                    </pre>
                 </section>
                 <section class="project">
                     <h2>My projects</h2>
@@ -54,7 +124,6 @@
                     <div class="left-footer">
                     </div>
                     <div class="right-footer">
-
                     </div>
                 </div>
             </footer>
