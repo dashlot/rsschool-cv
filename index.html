@@ -6,136 +6,193 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/155a070cb6.js" crossorigin="anonymous"></script>
-    <title>CV</title>
+    <title>CV Karpova</title>
+    <link rel="icon" href="images/cv_favicon.ico">
 </head>
 <body>
-    <header class="header-content">
-        <div class="inner-container">
-            <div class="inner-header-container">
-                <nav class="nav-line">
-                    <ul>
-                        <li><a href="">Contacts</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Skills</a></li>
-                        <li><a href="">Education</a></li>        
-                        <li><a href="">Languages</a></li>
-                        <li><a href="">Code</a></li>
-                        <li><a href="">Projects</a></li>
-                    </ul>
-                    <h1>Dasha Karpova</h1>
-                    <p title="In future :)">Pre-Junior Frontend Developer
-                        </p>
-                </nav>
-                <div class="header-photo">
-                    <img src="images/photo_header.jpg" />
+    <header class="header">
+        <div class="container">
+            <div class="inner-container">
+                <div class="left-part">
+                    <img src="images/photo_header.jpg" alt="photo-of-me" class="my-photo">
                 </div>
-                    <div class="header-pers-info">
-            
-                    </div>
+                <div class="right-part">
+                    <nav class="nav">
+                        <ul class="nav-list">
+                            <li><a href="#about" class="nav-link">About</a></li>
+                            <li><a href="#contacts" class="nav-link">Contacts</a></li>
+                            <li><a href="#education" class="nav-link">Education</a></li>
+                            <li><a href="#skills" class="nav-link">Skills</a></li>       
+                            <li><a href="#code" class="nav-link">Code</a></li>
+                            <li><a href="#languages" class="nav-link">Languages</a></li>
+                            <li><a href="#project" class="nav-link">Projects</a></li>
+                        </ul>
+                    </nav>
+                    <div class="personal-info">
+                        <h1>Dasha Karpova, <br>29 y. o.</h1>
+                        <p title="in future, I hope">Junior Frontend Developer <i class="fa-regular fa-heart"></i></p>
+                        <hr class="hor-line">
+                    </div>  
                 </div>
             </div>
         </div>
     </header>
-    <div class="main-content">
-        <div class="inner-container">
-            <div class="inner-main-container">
-                <aside class="left-aside">
-                    <section class="contacts">
-                        <h2>Contacts</h2>
-                        <table>
-                            <tr>
-                                <td><i class="fa-solid fa-location-dot"></i></td>
-                                <td>Armenia, Yerevan, +4 GMT</td>
-                            </tr>
-                            <tr>
-                                <td><i class="fa-solid fa-mobile-screen-button"></i></td>
-                                <td>+374 41 250 193</td>
-                            </tr>
-                            <tr>
-                                <td><i class="fa-solid fa-envelope"></i></td>
-                                <td>i.am.not.pursell@gmail.com</td>
-                            </tr>
-                            <tr>
-                                <td><i class="fa-brands fa-telegram"></i></td>
-                                <td><a href="https://t.me/gadopiatikna" target="_blank">@gadopiatikna</a></td>
-                            </tr>
-                            <tr>
-                                <td><i class="fa-brands fa-github"></i></td>
-                                <td><a href="https://github.com/dashlot" target="_blank">@dashlot</a></td>
-                            </tr>
-                            <tr>
-                                <td><i class="fa-brands fa-discord"></i></td>
-                                <td>Dasha Karpova (@dashlot)</td>
-                            </tr>
-                        </table>
+    <main class="main">
+        <div class="container">
+            <div class="inner-container">
+                <div class="left-part">
+                    <section class="contacts" id="contacts">
+                        <h2 class="section-header">Contacts</h2>
+                        <ul class="contact-list">
+                            <li><i class="fa-solid fa-location-dot"></i> Armenia, Yerevan, +4 GMT</li>
+                            <li><i class="fa-solid fa-mobile-screen-button"></i>+374 41 250 193</li>
+                            <li><i class="fa-solid fa-envelope"></i>i.am.not.pursell@gmail.com</li>
+                            <li><i class="fa-brands fa-telegram"></i><a href="https://t.me/gadopiatikna" target="_blank">@gadopiatikna</a></li>
+                            <li><i class="fa-brands fa-github"></i><a href="https://github.com/dashlot" target="_blank">@dashlot</a></li>
+                            <li><i class="fa-brands fa-discord"></i>Dasha Karpova (@dashlot)</li>                      
+                        </ul>                 
                     </section>
-                    <section class="skills">
-                        <h2>Skills</h2>
-                        <ul>
-                            <li>HTML5</li>
-                            <li>CSS</li>
-                            <li>JavaScript (basics)</li>
-                            <li>Figma</li>
-                            <li>Git, GitHub (basics)</li>
-                            <li>VS Code</li>
+                    <section class="education" id="education">
+                        <h2 class="section-header">Education</h2>
+                        <ul class="education-list">
+                            <li>B. A. in Russian Philology, Samara State University
+                            </li>
+                            <li>Копирайтер, <a href="https://netology.ru/programs/copywriter-cwf" target="_blank">Netology</a>;</li>
+                            <li>Frontend-разработчик на HTML, CSS и JavaScript, <a href="https://www.udemy.com/course/frontend-html-css-javascript/" target="_blank">Udemy</a></li>
+                            <li>RS School. JS/FE Pre-School 2022Q4, <a href="https://app.rs.school/" target="_blank">RSSchool</a><i class="fa-solid fa-spinner"></i></li>
+                            <li><a href="https://learn.javascript.ru/" target="_blank">Современный учебник JavaScript</a> <i class="fa-solid fa-spinner"></i></li>
                         </ul>
                     </section>
-                    <section class="lang">
-                        <h2>Languages</h2>
-                        <p>Russian — Native </p>
-                        <p>English — Intermediate. <span class="additional-lang">81%, according to Efset quick test.</span></p>
-                    </section>
-                </aside>
-                <main class="main">
-                    <section class="main-about">
-                        <h2>About me</h2>
-                        <p>
-                            My professional field is copywriting. I worked as a technical writer (2017–2020) and as a commercial author in email marketing. Since 2022 I've been working as a remote technical writer in a foreign company. 
-                        </p>
-                        <p>
-                            First front-end tasks I faced long ago when applying some MD markup for article editing. Then I tried to study style and markup several times. But they won. In summer 22, I made the new attempt. Since that moment, I've been learning HTML5, CSS, and the basics of JS.
-                        </p>
-                        <p>
-                            I consider that regular studying and strong desire help me to reach the main goal - become a Junior Frontend Developer.</p>
-                    </section>
-                    <section class="main-education">
-                        <h2>Education</h2>
+                    <section class="languages" id="languages">
+                        <h2 class="section-header">Languages</h2>
                         <ul>
-                            <li>B.A. in Russian Philology (Samara State University)</li>
-                            <li><a href="https://www.udemy.com/course/frontend-html-css-javascript/">Frontend разработчик на HTML, CSS и JavaScript (Udemy)</a></li>
-                            <li><a href="https://learn.javascript.ru/">JavaScript online manual (in progress)</a></li>
-                            <li><a href="https://app.rs.school/">RS School. JS/FE Pre-School 2022Q4 (in progress)</a></li>
+                            <li>Russian (native)</li>
+                            <li>English (intermediate, 81%, according to <a href="https://www.efset.org/" target="_blank">EF SET quick test</a>)</li>
                         </ul>
-
+                        <img src="images/eng.png" alt="english-test-result">
                     </section>
-                    <section class="main-code">
-                        <h2>Code example</h2>
-                        <pre>
-                            let getCity = $('.discount-text form button');
-                                getCity.on('click', function() {
-                                    $.get( "http://ip-api.com/json", function( data ) {
-                                    let divCity = $('#city-from-api');
-                                    divCity.html = `&lt;p&gt; data.city &lt;/&gt;`
-                                    }
-                                })
-                        </pre>
+                </div>
+                <div class="right-part">
+                    <section class="about" id="about">
+                        <h2 class="section-header">About</h2>
+                        <div class="about-text">
+                            <p>Hi, I'm Dasha. My professional field is copywriting. I worked as a technical writer (2017–2020) and as a commercial author in email marketing. Since 2022 I've been working as a remote technical writer in a foreign company.    
+                            </p>
+                            <br>
+                            <p>
+                            First front-end tasks I faced long ago when applying some MD markup for article editing. Then I tried to study style and markup several times. But they won. In summer 22, I did the current attempt. Since that moment, I've learned HTML5, CSS, and the basics of JS.
+                            </p>
+                            <br>
+                            <p>I consider that regular education and a strong desire will let me to become a Junior Frontend Developer.
+                            </p>                
+                        </div>
                     </section>
-                    <section class="project">
-                        <h2>My projects</h2>
+                    <section class="skills" id="skills">
+                        <h2 class="section-header">Skills</h2>
+                        <div class="table-skills">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>HTML5</td>
+                                        <td class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>CSS</td>
+                                        <td class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>JS (basics)</td>
+                                        <td class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Figma</td>
+                                        <td class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Git, GitHub</td>
+                                        <td class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>VS Code</td>
+                                        <td class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>    
                     </section>
-                </main>
-            </div>
-        </div>
-    </div>
-    <footer class="footer-content">
-        <div class="inner-container">
-            <div class="footer-inner-container">    
-                <div class="left-footer">
-                    </div>
-                    <div class="right-footer">
+                    <section class="code" id="code">
+                        <h2 class="section-header">Code example</h2>
+                        <div class="code-example">
+                            <pre>
+                                <span class="blue">let</span> getCity <span class="pink">=</span> <span class="green">$</span><span class="orange">(</span>'<span class="orange">.discount-text form button</span>'<span class="orange">)</span>;
+                                getCity.<span class="green">on</span><span class="orange">(</span>'<span class="orange">click</span>', <span class="blue">function</span><span class="orange">() {</span>
+                                    $.<span class="green">get(</span> <span class="orange">"http://ip-api.com/json</span>", <span class="blue">function(</span><span class="orange"> data </span><span class="blue"> ) {
+                                        let</span> divCity <span class="pink">=</span><span class="green">$</span>('<span class="orange">#city-from-api</span>');
+                                        divCity.<span class="green">html</span>(<span class="pink">`</span><span class="orange">&lt;p&gt;</span><span class="pink">${</span><span class="blue"> data.city</span><span class="pink">}</span> &lt;/p&gt;<span class="pink">`</span>);
+                                        <span class="blue">}</span><span class="green">)</span>;
+                                });</pre>
+                        </div>  
+                    </section>
+                    <section class="projects" id="project">
+                        <h2 class="section-header">Project</h2>
+                        <p><a href="https://github.com/dashlot/hiking-project" target="_blank">Stydying Landing Page with JS elements</a><p>
+        
+                    </section>
                 </div>
             </div>
         </div>
+    </main>          
+    <footer class="footer">
+        <div class="container">
+            <div class="inner-footer">
+                <div class="git">
+                    <a href="https://github.com/dashlot" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div><p>2022</p></div>
+                <div class="rsschool">
+                    <a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt="logo-rsschool"></a>
+                </div>
+                <div class="against-war">
+                    <img src="images/against-war.png" alt="ukrain-flag">
+                </div>
+            </div> 
+        </div> 
     </footer>
 </body>
 </html>
